@@ -1,10 +1,15 @@
-## TTechStack Used:-
+## TechStack Used:-
 <Br>
-1. Nextjs
+1. Nextjs 
+<br>
 2. Three js
+<br>
 3. Gemini API (Server)
+<br>
 4. Framer Motion
+<br>
 and many more Refer to package.json
+<br>
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
