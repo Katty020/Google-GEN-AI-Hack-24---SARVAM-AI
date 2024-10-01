@@ -1,5 +1,20 @@
-import "@/styles/globals.css";
+import { CssBaseline, ThemeProvider, createTheme } from '@mui/material';
+import Head from 'next/head';
 
-export default function App({ Component, pageProps }) {
-  return <Component {...pageProps} />;
+const theme = createTheme();
+
+function MyApp({ Component, pageProps }) {
+  return (
+    <>
+      <Head>
+        <title>Course Creation Copilot</title>
+      </Head>
+      <ThemeProvider theme={theme}>
+        <CssBaseline />
+        <Component {...pageProps} />
+      </ThemeProvider>
+    </>
+  );
 }
+
+export default MyApp;

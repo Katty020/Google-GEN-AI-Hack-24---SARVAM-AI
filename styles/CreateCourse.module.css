@@ -1,6 +1,6 @@
 .dotsBackground {
-  background-color: #f2f0f1;
-  background-image: radial-gradient(#101bef 1px, transparent 1px);
+  background-color: rgb(236, 234, 234);
+  background-image: radial-gradient(#d3d3d3 1px, transparent 1px);
   background-size: 20px 20px;
   position: relative;
   overflow: hidden;
@@ -13,9 +13,9 @@
   left: 0;
   width: 200%;
   height: 200%;
-  background-image: radial-gradient(#090a1c 1px, transparent 1px);
+  background-image: radial-gradient(#d3d3d3 1px, transparent 1px);
   background-size: 20px 20px;
-  animation:  70s linear infinite;
+  animation: moveDots 10s linear infinite;
   opacity: 0.5;
 }
 
